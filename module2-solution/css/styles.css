@@ -22,6 +22,8 @@ p {
     margin-left: auto;
     font-family: Helvetica;
     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #sp1 {
