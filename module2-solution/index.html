@@ -10,39 +10,37 @@
         /********** Large devices only **********/
         
         @media (min-width: 992px) {
-            .col-lg-1,
-            .col-lg-2,
-            .col-lg-3 {
+            .col-lg-4 {
                 float: left;
-                border: 1px solid green;
+                /*border: 1px solid green;*/
             }
-            .col-lg-1 {
-                width: 33.33%;
-            }
-            .col-lg-2 {
-                width: 33.33%;
-            }
-            .col-lg-3 {
+            .col-lg-4 {
                 width: 33.33%;
             }
         }
         /********** Medium devices only **********/
         
         @media (min-width: 768px) and (max-width: 991px) {
-            .col-md-1,
-            .col-md-2,
-            .col-md-3 {
+            .col-md-6,
+            .col-md-12 {
                 float: left;
                 border: 1px solid green;
             }
-            .col-md-1 {
-                width: 8.33%;
+            .col-md-6 {
+                width: 50%;
             }
-            .col-md-2 {
-                width: 16.66%;
+            .col-md-12 {
+                width: 100%;
             }
-            .col-md-3 {
-                width: 25%;
+        }
+        
+        @media (max-width: 767px) {
+            .col-sm-12 {
+                float: left;
+                border: 1px solid green;
+            }
+            .col-md-12 {
+                width: 100%;
             }
         }
     </style>
@@ -52,14 +50,19 @@
     <h1>Our Menu</h1>
 
     <div class="row">
-        <div class="col-lg-4 col-md-6">
-            <p>Item 1</p>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <p>
+                <span id="sp1">Chicken</span> <br /> ipsum dolor sit amet, consectetur adipiscing elit. Cras et interdum ex. </p>
         </div>
-        <div class="col-lg-4 col-md-6">
-            <p>Item 2</p>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <p>
+                <span id="sp2">Beef</span><br /> Curabitur imperdiet maximus condimentum. Mauris sed diam sem. In hac habitasse platea dictumst. </p>
         </div>
-        <div class="col-lg-4 col-md-12">
-            <p>Item 3</p>
+
+        <div class="col-lg-4 col-md-12 col-sm-12">
+            <p>
+                <span id="sp3">Sushi</span><br /> Vivamus convallis fermentum quam, a rhoncus lorem dignissim at. Duis id vestibulum arcu. </p>
         </div>
 
     </div>
