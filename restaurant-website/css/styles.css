@@ -20,3 +20,8 @@ body {
     height: 150px;
     margin: 10px 15px 10px 0;
 }
+
+#navbar-brand {
+    font-family: 'Lora', serif;
+    font-family: 'Oxygen', sans-serif;
+}
