@@ -21,6 +21,6 @@ body {
     margin: 10px 15px 10px 0;
 }
 
-#navbar-brand {
+.navbar-brand {
     font-family: 'Lora', serif;
 }
