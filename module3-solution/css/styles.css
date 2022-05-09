@@ -34,7 +34,7 @@ body {
 }
 
 #nav-list a {
-    color: #951C49;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -48,7 +48,7 @@ body {
 
 .navbar-header button.navbar-toggle,
 .navbar-header .icon-bar {
-    border: 1px solid #61122f;
+    border: 1px solid #6e9324;
 }
 
 .navbar-header button.navbar-toggle {
