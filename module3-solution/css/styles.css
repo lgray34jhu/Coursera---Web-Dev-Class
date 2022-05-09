@@ -19,6 +19,15 @@ body {
     font-family: 'Lora', serif;
 }
 
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
 #nav-list {
     margin-top: 10px;
 }
