@@ -59,4 +59,5 @@ body {
 #chicken-menu #beef-menu #sushi-menu {
     height: 1000px;
     text-justify: distribute;
+    padding: 20px;
 }
