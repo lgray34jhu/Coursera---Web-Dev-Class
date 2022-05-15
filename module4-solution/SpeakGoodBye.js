@@ -5,7 +5,6 @@
 // See Lecture 52, part 2
 (function(window) {
     var byeSpeaker = {};
-    byeSpeaker.name = names[i];
     var speakWord = "Good Bye";
     byeSpeaker.speak = function() {
         console.log(speakWord + " " + name);
