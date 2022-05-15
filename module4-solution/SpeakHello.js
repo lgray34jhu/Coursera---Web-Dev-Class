@@ -4,7 +4,7 @@
     var helloSpeaker = {};
     //helloSpeaker.name = names[i];
     var speakWord = "Hello";
-    helloSpeaker.speak = function() {
+    helloSpeaker.speak = function(window) {
         console.log(speakWord + " " + name);
     }
 
