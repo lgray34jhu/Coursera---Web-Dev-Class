@@ -11,6 +11,7 @@
     }
 
     window.byeSpeaker = byeSpeaker;
+    window.byeSpeaker.name = names[i];
 })(window);
 
 // STEP 7: Create an object, called 'byeSpeaker' to which you will attach
